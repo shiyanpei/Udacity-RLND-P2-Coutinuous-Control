@@ -1,15 +1,17 @@
 # Udacity-RLND-P2-Coutinuous-Control
 This is the second project of deep reinforcement learning nanodegree of Udacity
 
-# Single Arm
+# Single Arm Environment
 
 ## Requirements
 python 3.6 <br>pytorch 0.4.1<br>
 
-## import package
+## Environment
+### import package
 ```
 from unityagents import UnityEnvironment
 ```
+
 ### Then Download the environment
 Before running the code, change the file_name parameter to match the location of the Unity environment that you downloaded.
 
@@ -24,3 +26,19 @@ For instance, if you are using a Mac, then you downloaded Reacher.app. If this f
 ```
 env = UnityEnvironment(file_name="Reacher.app")
 ```
+### Information of the environment
+
+## Code
+### To train the agent, use the command below
+```
+python train_single_arm.py
+```
+### To do inference and see the agent, please use the command below
+```
+python infer_single_arm.py
+```
+### Code and files location
+The code of the agent is in agent_single_arm.py, the pytorch model is in model_single_arm.py<br>
+The plot of trainig scores is in ./pictures/single_arm.png<br>
+The trained model is in ./ckpt/checkpoint1.pth<br>
+Report of algorithm is in Report of P2_single_arm.pdf<br>
