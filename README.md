@@ -50,4 +50,4 @@ python infer_reacher.py
 ### Code and files location
 The code of the agent is in agent_single_arm.py, the pytorch model is in model_reacher.py<br>
 The plot of trainig scores is in ./pictures/reacher.png<br>
-The trained model is in ./ckpt/checkpoint1.pth<br>
+The trained model for this environment is ./ckpt/checkpoint1.pth<br>
