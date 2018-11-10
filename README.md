@@ -43,7 +43,7 @@ To Solve this environment, your agent must get an average score of +30 over 100 
 ```
 python train_reacher.py
 ```
-### To do inference and see the agent, please use the command below
+### To watch a smart trained agent, please use the command below
 ```
 python infer_reacher.py
 ```
